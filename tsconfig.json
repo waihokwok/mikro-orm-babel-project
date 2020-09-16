@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"noEmit": true,
+		"strict": true,
+		"jsx": "react",
+		"target": "es2017",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"rootDir": "./",
+		"baseUrl": "./"
+	},
+	"include": ["./src", "./test"],
+	"exclude": ["node_modules", "dist"]
+}

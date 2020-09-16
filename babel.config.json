@@ -1,0 +1,21 @@
+{
+	"presets": [
+		[
+			"@babel/env",
+			{
+				"targets": {
+					"browsers": "> 0.5%, last 2 versions, Firefox ESR, not dead"
+				},
+				"useBuiltIns": "usage",
+				"corejs": { "version": 3, "proposals": true }
+			}
+		],
+		"@babel/preset-typescript"
+	],
+	"plugins": [
+		"babel-plugin-transform-typescript-metadata",
+		["@babel/plugin-proposal-decorators", { "legacy": true }],
+		["@babel/plugin-proposal-class-properties", { "loose": true }]
+	],
+	"ignore": ["**/*.spec.*", "__snapshots__", "__tests__"]
+}
