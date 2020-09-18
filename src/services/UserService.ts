@@ -9,7 +9,7 @@ export class UserService extends EntityService<User> {
 	}
 }
 
-export class DummyGetterUserService extends EntityService<User> {
+export class DummyGetterUserService extends EntityService<DummyGetterUser> {
 	constructor(repository: EntityRepository<DummyGetterUser>) {
 		super(repository);
 	}
